@@ -22,4 +22,10 @@ function palidromeTwo(str) {
   return reversed === str;
 }
 
-console.log(palidromeTwo("abba"));
+function palindromeThree(str) {
+  return str.split("").every((char, i) => {
+    return char === str[str.length - i - 1];
+  });
+}
+
+console.log(palindromeThree("auba"));
