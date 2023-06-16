@@ -26,3 +26,4 @@ function chunk(array, size) {
 
 let arr = [1, 2, 3, 4, 5, 6];
 chunk(arr, 2);
+
