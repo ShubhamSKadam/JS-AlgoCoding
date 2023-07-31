@@ -8,6 +8,14 @@
 //   anagrams('RAIL! SAFETY!', 'fairy tales') --> True
 //   anagrams('Hi there', 'Bye there') --> False
 
-function anagrams(stringA, stringB) {}
+// const word = "HI THERE !!!";
+
+// console.log(word.replace(/[^\w]/g, "")); -> output : HITHERE
+
+function anagrams(stringA, stringB) {
+    
+}
+
+
 
 module.exports = anagrams;
